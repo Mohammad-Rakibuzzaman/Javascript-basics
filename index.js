@@ -111,51 +111,61 @@ const guest = ["Ratul ra", "Linta miss", "Snigdha", "Sumu"];
 var myArrayex = [];
 var countss = 1;
 
+
 function fizBuzz() {
 
-  if (countss % 3 === 0 && countss % 5 === 0) {
-    myArrayex.push("FizzBuzz");
-  } else if (countss % 3 === 0) {
-    myArrayex.push("Fizz");
-  } else if (countss % 5 === 0) {
-    myArrayex.push("Buzz");
-  } else {
-    myArrayex.push(countss);
-  }
+  while (countss <= 100) {
 
-  // myArrayex.push(countss);
-  countss++;
+    if (countss % 3 === 0 && countss % 5 === 0) {
+      myArrayex.push("FizzBuzz");
+    } else if (countss % 3 === 0) {
+      myArrayex.push("Fizz");
+    } else if (countss % 5 === 0) {
+      myArrayex.push("Buzz");
+    } else {
+      myArrayex.push(countss);
+    }
+  
+    // myArrayex.push(countss);
+    countss++;
+    // console.log(myArrayex)
+
+
+  }
+  
   console.log(myArrayex)
 
 }
 
 fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
-fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+// fizBuzz();
+
+

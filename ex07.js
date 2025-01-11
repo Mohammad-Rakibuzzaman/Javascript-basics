@@ -1,5 +1,10 @@
 
 let names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+// console.log(names.length)
+// var numberOfpeople = names.length;
+// var randomPersonPosition = Math.random() * numberOfpeople
+// console.log(randomPersonPosition)
+
 function whosPaying(names) {
     
     /******Don't change the code above*******/
@@ -21,6 +26,6 @@ function whosPaying(names) {
     /******Don't change the code below*******/    
 }
 
-console.log(whosPaying(names));
+// console.log(whosPaying(names));
 
 
