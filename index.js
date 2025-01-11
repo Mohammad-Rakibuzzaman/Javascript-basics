@@ -59,22 +59,42 @@ function getMilk(money) {
 // getMilk(16);
 
 
-function lifeInWeeks(age) {
+// function lifeInWeeks(age) {
     
-    /************Don't change the code above************/    
+//     /************Don't change the code above************/    
         
-        //Write your code here.
+//         //Write your code here.
         
-        let dayAlive = ((365 * 90) - (365 * age));
-        let weekAlive = ((52 * 90) - (52 * age)); 
-        let monthAlive = ((12 * 90) - (12 * age));
-        
-        
-        console.log("You have " + dayAlive + " days, " + weekAlive + " weeks, and " + monthAlive + " months left.")
+//         let dayAlive = ((365 * 90) - (365 * age));
+//         let weekAlive = ((52 * 90) - (52 * age)); 
+//         let monthAlive = ((12 * 90) - (12 * age));
         
         
-    /*************Don't change the code below**********/
-}
+//         console.log("You have " + dayAlive + " days, " + weekAlive + " weeks, and " + monthAlive + " months left.")
+        
+        
+//     /*************Don't change the code below**********/
+// }
 
-lifeInWeeks(56);
+// lifeInWeeks(56);
+
+
+
+
+//build a love calculator using random number generator
+
+
+var n = Math.random();
+n = n * 6;
+n = Math.floor(n) + 1 ;
+
+// console.log(n);
+
+prompt("What is your name?: ");
+prompt("What is their name?: ");
+
+let loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1;
+console.log("So your love score is: " + loveScore + "%");
+
 
