@@ -90,11 +90,72 @@ n = Math.floor(n) + 1 ;
 
 // console.log(n);
 
-prompt("What is your name?: ");
-prompt("What is their name?: ");
+// prompt("What is your name?: ");
+// prompt("What is their name?: ");
 
 let loveScore = Math.random() * 100;
 loveScore = Math.floor(loveScore) + 1;
-console.log("So your love score is: " + loveScore + "%");
+// console.log("So your love score is: " + loveScore + "%");
 
 
+const guest = ["Ratul ra", "Linta miss", "Snigdha", "Sumu"];
+
+// let yourInvite = prompt("Whats your name?: ")
+
+// console.log(guest.includes(yourInvite));
+
+// guest.includes(yourInvite) ? console.log("You welcome to raddison!!!") : console.log("sorry, Next time..");
+
+
+
+var myArrayex = [];
+var countss = 1;
+
+function fizBuzz() {
+
+  if (countss % 3 === 0 && countss % 5 === 0) {
+    myArrayex.push("FizzBuzz");
+  } else if (countss % 3 === 0) {
+    myArrayex.push("Fizz");
+  } else if (countss % 5 === 0) {
+    myArrayex.push("Buzz");
+  } else {
+    myArrayex.push(countss);
+  }
+
+  // myArrayex.push(countss);
+  countss++;
+  console.log(myArrayex)
+
+}
+
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
+fizBuzz();
